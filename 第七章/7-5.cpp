@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-long long function(int n)
+unsigned long long function(int n)
 {
     if (n == 0)
         return 1;
@@ -30,7 +30,7 @@ int main()
             continue;
         }
         // 计算阶乘结果
-        long long result = function(n);
+       unsigned long long result = function(n);
         cout << n << "!=" << result << endl;
     }
     return 0;
