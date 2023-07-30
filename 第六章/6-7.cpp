@@ -19,7 +19,8 @@ int main() {
         if (!isalpha(word[0])) {
             otherWordsCount++;
         }
-        else {
+        else 
+        {
             switch(tolower(word[0])) {
                 case 'a':
                 case 'e':
