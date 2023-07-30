@@ -9,11 +9,11 @@ int Fill_array(double array[], int length)
     for (int i = 0; i < length; i++)
     {
         if (!(cin >> array[i]))
-            break;
+            break; 
         count++;
     }
     return count;
-    
+
 }
 
 int Show_array(double array[], int length)
