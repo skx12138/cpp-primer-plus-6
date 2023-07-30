@@ -13,6 +13,7 @@ int Fill_array(double array[], int length)
         count++;
     }
     return count;
+    
 }
 
 int Show_array(double array[], int length)
